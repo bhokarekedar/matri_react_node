@@ -28,7 +28,6 @@ const UsersEducationAndWorkInfoSchema = new mongoose.Schema(
     },
       you_work_with: {
       type: mongoose.Schema.Types.String,
-      required: true,
     },
     designation: {
       type: mongoose.Schema.Types.String,

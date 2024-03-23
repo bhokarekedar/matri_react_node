@@ -1,5 +1,6 @@
 import express from "express";
 import routes from "./routes/index.mjs";
+import cors from "cors";
 import cookieParser from "cookie-parser";
 import session from "express-session";
 import passport from "passport";
@@ -9,6 +10,7 @@ import "./strategies/local-strategy.mjs";
 
 export function createApp() {
 	const app = express();
+	app.use(cors())
 	app.use(express.json());
 	app.use(cookieParser("helloworld"));
 	app.use(

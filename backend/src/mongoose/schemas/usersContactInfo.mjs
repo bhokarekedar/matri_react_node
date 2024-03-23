@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const UsersContactInfoSchema = new mongoose.Schema(
   {
-    email: {
+    contact_email: {
       type: mongoose.Schema.Types.String,
       required: true,
     },

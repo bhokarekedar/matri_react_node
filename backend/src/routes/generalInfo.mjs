@@ -13,7 +13,7 @@ import { getAllGeneralInfo } from "../handlers/generalInfo.mjs";
 const router = Router();
 
 router.get(
-	"/generalInfo/",
+	"/api/generalInfo/",
 	getAllGeneralInfo
 );
 

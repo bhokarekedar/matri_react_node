@@ -2,34 +2,34 @@ import mongoose from "mongoose";
 
 const UsersIdealPartnerInfoSchema = new mongoose.Schema(
   {
-    age_range: {
+    preferred_age_range: {
       type: mongoose.Schema.Types.String,
     },
-    height_range: {
+    preferred_height_range: {
       type: mongoose.Schema.Types.String,
     },
-    build: {
+    preferred_build: {
       type: mongoose.Schema.Types.String, 
     },
-    marital_status: {
+    preferred_marital_status: {
       type: mongoose.Schema.Types.String,
     },
-    family_type: {
+    preferred_family_type: {
       type: mongoose.Schema.Types.String,
     },
-    city_living_in: {
+    preferred_city_living_in: {
       type: mongoose.Schema.Types.String,
     },
-    working_partner_preferred: {
+    preferred_working_partner: {
       type: mongoose.Schema.Types.String,
     },
-    education: {
+    preferred_education: {
       type: mongoose.Schema.Types.String,
     },
-    minimum_income_per_Annum: {
+    preferred_minimum_income_per_Annum: {
       type: mongoose.Schema.Types.String,
     },
-    looking_for: {
+    preferred_looking_for: {
       type: mongoose.Schema.Types.String,
     },
     profile_id: {
